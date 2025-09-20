@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Building AI Applications with Python and Flask",
+    "date": "2024-12-15",
+    "description": "A comprehensive guide to creating intelligent web applications using Python, Flask, and modern AI APIs. Learn how to integrate machine learning models into web apps.",
+    "tags": ["python", "flask", "ai", "api", "tutorial"],
+    "readTime": "8 min read",
+    "slug": "building-ai-applications-with-python-and-flask"
+  },
+  {
+    "title": "Understanding Transformer Architecture in Deep Learning",
+    "date": "2024-12-08",
+    "description": "Dive deep into the transformer architecture that powers modern language models like GPT and BERT. Understand attention mechanisms and their applications.",
+    "tags": ["deep-learning", "transformers", "nlp", "attention", "theory"],
+    "readTime": "12 min read",
+    "slug": "understanding-transformer-architecture-in-deep-learning"
+  },
+  {
+    "title": "Deploying Machine Learning Models to Production",
+    "date": "2024-12-01",
+    "description": "Best practices for deploying ML models in production environments. Cover containerization, API design, monitoring, and scaling strategies.",
+    "tags": ["mlops", "deployment", "docker", "api", "production"],
+    "readTime": "15 min read",
+    "slug": "deploying-machine-learning-models-to-production"
+  },
+  {
+    "title": "Computer Vision Preprocessing Techniques",
+    "date": "2024-11-24",
+    "description": "Essential image preprocessing techniques for computer vision projects. Learn about normalization, augmentation, and feature extraction methods.",
+    "tags": ["computer-vision", "preprocessing", "opencv", "python", "tutorial"],
+    "readTime": "10 min read",
+    "slug": "computer-vision-preprocessing-techniques"
+  },
+  {
+    "title": "Getting Started with Git and GitHub for Developers",
+    "date": "2024-11-17",
+    "description": "A beginner-friendly guide to version control with Git and collaboration on GitHub. Perfect for new developers and researchers.",
+    "tags": ["git", "github", "version-control", "beginner", "tutorial"],
+    "readTime": "6 min read",
+    "slug": "getting-started-with-git-and-github-for-developers"
+  },
+  {
+    "title": "Optimizing Database Queries for Better Performance",
+    "date": "2024-11-10",
+    "description": "Learn how to write efficient database queries, use indexes effectively, and optimize your application's database performance.",
+    "tags": ["database", "sql", "optimization", "performance", "backend"],
+    "readTime": "9 min read",
+    "slug": "optimizing-database-queries-for-better-performance"
+  },
+  {
+    "title": "Building Responsive Web Applications with Bootstrap 5",
+    "date": "2024-11-03",
+    "description": "Master responsive web design with Bootstrap 5. Learn about the grid system, components, and modern CSS utilities.",
+    "tags": ["bootstrap", "css", "responsive", "web-design", "frontend"],
+    "readTime": "7 min read",
+    "slug": "building-responsive-web-applications-with-bootstrap-5"
+  },
+  {
+    "title": "Introduction to Natural Language Processing",
+    "date": "2024-10-27",
+    "description": "Explore the fundamentals of NLP including tokenization, sentiment analysis, and text classification using Python libraries.",
+    "tags": ["nlp", "python", "text-processing", "sentiment-analysis", "beginner"],
+    "readTime": "11 min read",
+    "slug": "introduction-to-natural-language-processing"
+  },
+  {
+    "title": "Containerizing Applications with Docker",
+    "date": "2024-10-20",
+    "description": "Learn Docker fundamentals including creating containers, writing Dockerfiles, and managing multi-container applications with docker-compose.",
+    "tags": ["docker", "containers", "devops", "deployment", "tutorial"],
+    "readTime": "13 min read",
+    "slug": "containerizing-applications-with-docker"
+  },
+  {
+    "title": "Python Data Analysis with Pandas and NumPy",
+    "date": "2024-10-13",
+    "description": "Essential data manipulation and analysis techniques using pandas and NumPy. Perfect for data science beginners and researchers.",
+    "tags": ["python", "pandas", "numpy", "data-analysis", "tutorial"],
+    "readTime": "14 min read",
+    "slug": "python-data-analysis-with-pandas-and-numpy"
+  },
+  {
+    "title": "Securing Web Applications: Best Practices",
+    "date": "2024-10-06",
+    "description": "Comprehensive security guide for web developers covering authentication, authorization, HTTPS, and common vulnerability prevention.",
+    "tags": ["security", "web-development", "authentication", "https", "best-practices"],
+    "readTime": "16 min read",
+    "slug": "securing-web-applications-best-practices"
+  },
+  {
+    "title": "API Design Principles and RESTful Services",
+    "date": "2024-09-29",
+    "description": "Learn how to design clean, maintainable APIs following REST principles. Cover HTTP methods, status codes, and API documentation.",
+    "tags": ["api", "rest", "web-development", "backend", "design"],
+    "readTime": "10 min read",
+    "slug": "api-design-principles-and-restful-services"
+  }
+]

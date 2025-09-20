@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Dynamic meta tags will be populated by JavaScript -->
+  <title id="post-title">Loading... - Taufiq</title>
+  <meta id="post-description" content="" name="description">
+  <meta id="post-keywords" content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/code-icon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Syntax Highlighting -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/blog.css" rel="stylesheet">
+  <link href="/assets/css/blog-posts.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <div id="header-placeholder"></div>
+  <!-- End Header -->
+
+  <main id="main">
+    <!-- ======= Blog Post Section ======= -->
+    <section id="blog-post" class="blog-post">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Loading State -->
+        <div id="loading-state" class="text-center" style="padding: 60px 0;">
+          <i class="fas fa-spinner fa-spin fa-2x" style="color: #34b7a7;"></i>
+          <p style="margin-top: 20px; color: #666;">Loading article...</p>
+        </div>
+
+        <!-- Article Content -->
+        <div id="article-content" style="display: none;">
+          <div class="row">
+            <div class="col-lg-9">
+              <!-- Article Header -->
+              <div class="post-header">
+                <h1 id="article-title" class="post-title"></h1>
+                <div class="post-meta">
+                  <div class="post-meta-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span id="article-date"></span>
+                  </div>
+                  <div class="post-meta-item">
+                    <i class="fas fa-clock"></i>
+                    <span id="article-read-time"></span>
+                  </div>
+                  <div class="post-meta-item">
+                    <i class="fas fa-user"></i>
+                    <span>Taufiq Khan Tusar</span>
+                  </div>
+                </div>
+                <div id="article-tags" class="post-tags"></div>
+              </div>
+
+              <!-- Article Body -->
+              <div id="article-body" class="post-content">
+                <!-- Markdown content will be rendered here -->
+              </div>
+
+              <!-- Post Navigation -->
+              <div class="post-navigation">
+                <div class="nav-previous" id="nav-previous" style="display: none;">
+                  <a href="#">
+                    <i class="fas fa-chevron-left"></i>
+                    <div>
+                      <small>Previous Post</small>
+                      <span class="nav-title"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="nav-next" id="nav-next" style="display: none;">
+                  <a href="#">
+                    <div>
+                      <small>Next Post</small>
+                      <span class="nav-title"></span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- GitHub Discussions Comments -->
+              <div class="comments-section">
+                <h3>Comments</h3>
+                <div id="github-comments">
+                  <p><a href="#" id="github-discussion-link" target="_blank">Join the discussion on GitHub</a></p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-3">
+              <div class="sidebar">
+                
+                <!-- Recent Posts -->
+                <div class="sidebar-widget">
+                  <h4>Recent Posts</h4>
+                  <div id="recent-posts" class="recent-posts">
+                    <!-- Recent posts will be loaded here -->
+                  </div>
+                </div>
+
+                <!-- Back to Blog -->
+                <div class="sidebar-widget">
+                  <a href="/blog" class="btn btn-outline-primary btn-block">
+                    <i class="fas fa-arrow-left"></i> Back to Blog
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Error State -->
+        <div id="error-state" class="text-center" style="display: none; padding: 60px 0;">
+          <i class="fas fa-exclamation-triangle fa-2x" style="color: #dc3545;"></i>
+          <h3 style="margin-top: 20px;">Article Not Found</h3>
+          <p style="color: #666;">The article you're looking for doesn't exist or has been moved.</p>
+          <a href="/blog" class="btn btn-primary">Back to Blog</a>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Blog Post Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div id="footer-placeholder"></div>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/purecounter/1.5.0/purecounter_vanilla.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+  <!-- Markdown and Syntax Highlighting -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+  <!-- Template Main JS Files -->
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/header.js"></script>
+  <script src="/assets/js/footer.js"></script>
+
+  <!-- Blog Post JS -->
+  <script src="/assets/js/blog-posts.js"></script>
+
+</body>
+
+</html>
