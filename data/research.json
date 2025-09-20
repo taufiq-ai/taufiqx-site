@@ -1,7 +1,8 @@
 [
   {
-    "title": "A Context-aware customer support chatbot using small language models",
-    "venue": "Ongoing",
+    "title": "Context-Aware Small Language Models for Customer Support Chatbots",
+    "authors": "",
+    "venue": "ongoing",
     "date": "2025",
     "category": "nlp",
     "tags": ["language-model", "slm", "context-engineering"],
@@ -10,7 +11,8 @@
   },
     {
     "title": "On-device Small Language Models: A Comprehensive Survey",
-    "venue": "Ongoing",
+    "authors": "",
+    "venue": "ongoing",
     "date": "2025",
     "category": "nlp",
     "tags": ["language-model", "slm", "on-device"],

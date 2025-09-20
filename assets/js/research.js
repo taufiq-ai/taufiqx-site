@@ -40,6 +40,10 @@ if (window.location.pathname.includes('publication') || document.title.includes(
               <span class="publication-venue">${pub.venue}</span>
               <span class="publication-date">${pub.date}</span>
             </div>
+
+            <div class="publication-authors">
+              ${pub.authors}
+            </div>
             
             <div class="publication-tags">
               <span class="publication-category">${pub.category.replace('filter-', '').toUpperCase()}</span>
