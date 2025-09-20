@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Deep Learning for Brain Tumor Detection",
+    "journal": "IEEE",
+    "date": "May 2023",
+    "category": "vision",
+    "image": "assets/img/publications/ieee_brain_tumor.png",
+    "pdf": "assets/pdf/202305_IEEE_BrainTumor.pdf",
+    "doi": "https://doi.org/10.1109/SIST58284.2023.10223507"
+  },
+  {
+    "title": "Another Publication",
+    "journal": "JCTA",
+    "date": "May 2024",
+    "category": "vision",
+    "image": "assets/img/publications/jcta_all.png", 
+    "pdf": "assets/pdf/202405_JCTA_ALL.pdf",
+    "doi": "https://doi.org/10.62411/jcta.10358"
+  },
+  {
+    "title": "Deep Learning for Brain Tumor Detection",
+    "journal": "IEEE",
+    "date": "May 2023",
+    "category": "vision",
+    "image": "assets/img/publications/ieee_brain_tumor.png",
+    "pdf": "assets/pdf/202305_IEEE_BrainTumor.pdf",
+    "doi": "https://doi.org/10.1109/SIST58284.2023.10223507"
+  },
+  {
+    "title": "Another Publication",
+    "journal": "JCTA",
+    "date": "May 2024",
+    "category": "vision",
+    "image": "assets/img/publications/jcta_all.png", 
+    "pdf": "assets/pdf/202405_JCTA_ALL.pdf",
+    "doi": "https://doi.org/10.62411/jcta.10358"
+  }
+]

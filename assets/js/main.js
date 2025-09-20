@@ -130,12 +130,16 @@
     });
   }
 
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
+
+/**
+ * Portfolio isotope and filter
+ */
+window.addEventListener('load', () => {
+  let portfolioContainer = select('.portfolio-container');
+  if (portfolioContainer) {
+    
+    // Function to initialize isotope
+    const initializeIsotope = () => {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item'
       });
@@ -156,9 +160,33 @@
           AOS.refresh()
         });
       }, true);
-    }
+      
+      return portfolioIsotope;
+    };
 
-  });
+    // Check if portfolio items exist (static content)
+    if (portfolioContainer.children.length > 0) {
+      // Initialize immediately for static content
+      initializeIsotope();
+    } else {
+      // Wait for dynamic content to load
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.type === 'childList' && portfolioContainer.children.length > 0) {
+            // Dynamic content loaded, initialize isotope
+            setTimeout(() => {
+              initializeIsotope();
+              observer.disconnect(); // Stop observing
+            }, 100);
+          }
+        });
+      });
+      
+      // Start observing
+      observer.observe(portfolioContainer, { childList: true });
+    }
+  }
+});
 
   /**
    * Initiate portfolio lightbox 
