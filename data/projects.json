@@ -1,0 +1,134 @@
+[
+  {
+    "title": "AI Chat Bot with Flask",
+    "tools": "Python, Flask, OpenAI API, PostgreSQL",
+    "category": "web",
+    "tags": ["chatbot", "nlp", "api"],
+    "year": "2024",
+    "description": "A conversational AI application built with Flask that integrates OpenAI's GPT models to provide intelligent responses. Features user authentication, conversation history, and real-time chat functionality.",
+    "github": "https://github.com/username/ai-chatbot-flask",
+    "deployment": "https://ai-chatbot.render.com",
+    "demo": "https://youtube.com/watch?v=demo1"
+  },
+  {
+    "title": "Stock Price Prediction Model",
+    "tools": "Python, TensorFlow, Pandas, NumPy, Scikit-learn",
+    "category": "ml",
+    "tags": ["lstm", "time-series", "finance"],
+    "year": "2024",
+    "description": "A machine learning model using LSTM neural networks to predict stock prices based on historical data. Includes data preprocessing, feature engineering, and model evaluation with various metrics.",
+    "github": "https://github.com/username/stock-prediction-lstm",
+    "deployment": "https://stock-predictor.streamlit.app",
+    "demo": "https://youtube.com/watch?v=demo2"
+  },
+  {
+    "title": "E-commerce REST API",
+    "tools": "Node.js, Express, MongoDB, JWT, Stripe",
+    "category": "api",
+    "tags": ["rest", "authentication", "payment"],
+    "year": "2024",
+    "description": "A comprehensive REST API for e-commerce applications with features like user authentication, product management, order processing, and payment integration using Stripe.",
+    "github": "https://github.com/username/ecommerce-api",
+    "deployment": "https://ecommerce-api.herokuapp.com",
+    "demo": null
+  },
+  {
+    "title": "Customer Segmentation Analysis",
+    "tools": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn",
+    "category": "data",
+    "tags": ["clustering", "visualization", "analytics"],
+    "year": "2024",
+    "description": "A data science project analyzing customer behavior patterns using K-means clustering and RFM analysis. Provides actionable insights for marketing strategies and customer retention.",
+    "github": "https://github.com/username/customer-segmentation",
+    "deployment": null,
+    "demo": "https://youtube.com/watch?v=demo4"
+  },
+  {
+    "title": "Task Management Web App",
+    "tools": "React, Node.js, Express, MongoDB, Socket.io",
+    "category": "web",
+    "tags": ["react", "realtime", "productivity"],
+    "year": "2024",
+    "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, team collaboration features, and progress tracking dashboards.",
+    "github": "https://github.com/username/task-manager-react",
+    "deployment": "https://taskmaster-app.netlify.app",
+    "demo": "https://youtube.com/watch?v=demo5"
+  },
+  {
+    "title": "Weather Forecast Mobile App",
+    "tools": "React Native, OpenWeather API, Redux, AsyncStorage",
+    "category": "mobile",
+    "tags": ["react-native", "api", "weather"],
+    "year": "2023",
+    "description": "A cross-platform mobile app providing detailed weather forecasts, location-based updates, and weather alerts. Features offline storage and beautiful UI animations.",
+    "github": "https://github.com/username/weather-app-rn",
+    "deployment": null,
+    "demo": "https://youtube.com/watch?v=demo6"
+  },
+  {
+    "title": "Image Classification CNN",
+    "tools": "Python, TensorFlow, Keras, OpenCV, Flask",
+    "category": "ml",
+    "tags": ["cnn", "computer-vision", "classification"],
+    "year": "2023",
+    "description": "A convolutional neural network for image classification with a web interface for real-time predictions. Trained on custom dataset with data augmentation techniques.",
+    "github": "https://github.com/username/image-classifier-cnn",
+    "deployment": "https://image-classifier.render.com",
+    "demo": "https://youtube.com/watch?v=demo7"
+  },
+  {
+    "title": "Blog CMS with Django",
+    "tools": "Django, PostgreSQL, Bootstrap, CKEditor",
+    "category": "web",
+    "tags": ["cms", "blog", "admin"],
+    "year": "2023",
+    "description": "A full-featured content management system for blogging with rich text editing, user roles, comment system, and SEO optimization features.",
+    "github": "https://github.com/username/blog-cms-django",
+    "deployment": "https://blog-cms.herokuapp.com",
+    "demo": null
+  },
+  {
+    "title": "Sales Dashboard Analytics",
+    "tools": "Python, Dash, Plotly, Pandas, SQLite",
+    "category": "data",
+    "tags": ["dashboard", "analytics", "visualization"],
+    "year": "2023",
+    "description": "An interactive sales dashboard providing real-time analytics, KPI tracking, and customizable visualizations for business intelligence and decision making.",
+    "github": "https://github.com/username/sales-dashboard",
+    "deployment": "https://sales-analytics.dash.app",
+    "demo": "https://youtube.com/watch?v=demo9"
+  },
+  {
+    "title": "Social Media API Gateway",
+    "tools": "Python, FastAPI, Redis, Docker, OAuth2",
+    "category": "api",
+    "tags": ["fastapi", "microservices", "oauth"],
+    "year": "2023",
+    "description": "A high-performance API gateway for social media applications with rate limiting, caching, authentication, and integration with multiple social platforms.",
+    "github": "https://github.com/username/social-api-gateway",
+    "deployment": "https://social-api.railway.app",
+    "demo": null
+  },
+  {
+    "title": "Expense Tracker Mobile App",
+    "tools": "Flutter, Firebase, Dart, Provider",
+    "category": "mobile",
+    "tags": ["flutter", "firebase", "finance"],
+    "year": "2023",
+    "description": "A cross-platform expense tracking app with budget management, category-wise spending analysis, and cloud synchronization using Firebase backend.",
+    "github": "https://github.com/username/expense-tracker-flutter",
+    "deployment": null,
+    "demo": "https://youtube.com/watch?v=demo11"
+  },
+  {
+    "title": "Sentiment Analysis Pipeline",
+    "tools": "Python, NLTK, spaCy, Apache Kafka, Docker",
+    "category": "ml",
+    "tags": ["nlp", "sentiment", "pipeline"],
+    "year": "2023",
+    "description": "A scalable sentiment analysis pipeline processing real-time social media data with natural language processing techniques and automated reporting features.",
+    "github": "https://github.com/username/sentiment-analysis-pipeline",
+    "deployment": null,
+    "demo": "https://youtube.com/watch?v=demo12"
+  }
+]

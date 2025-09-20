@@ -1,0 +1,268 @@
+/* Projects Styles */
+.projects {
+  padding: 60px 0;
+}
+
+.projects-container {
+  margin-top: 40px;
+}
+
+/* Filter Buttons */
+.projects-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.projects-filters li {
+  padding: 10px 20px;
+  background: #f8f9fa;
+  color: #666;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.projects-filters li:hover,
+.projects-filters li.filter-active {
+  background: #34b7a7;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Project Cards */
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.project-card-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-header {
+  margin-bottom: 15px;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #666;
+}
+
+.project-year {
+  font-weight: 500;
+  color: #34b7a7;
+}
+
+.project-category {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #888;
+}
+
+.project-category i {
+  font-size: 12px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+.project-description {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.project-tools {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #555;
+}
+
+.project-tools i {
+  color: #34b7a7;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.project-tools span {
+  font-weight: 500;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.project-tag {
+  background: #f1f3f4;
+  color: #5f6368;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.project-link.github {
+  background: #333;
+}
+
+.project-link.github:hover {
+  background: #24292e;
+  transform: translateY(-2px);
+}
+
+.project-link.live {
+  background: #28a745;
+}
+
+.project-link.live:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+.project-link.demo {
+  background: #dc3545;
+}
+
+.project-link.demo:hover {
+  background: #c82333;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-filters {
+    gap: 10px;
+  }
+  
+  .projects-filters li {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .project-card-content {
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-size: 18px;
+  }
+  
+  .project-description {
+    font-size: 13px;
+  }
+  
+  .project-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .project-links {
+    gap: 8px;
+  }
+  
+  .project-link {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .projects-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projects-filters li {
+    width: 200px;
+    text-align: center;
+  }
+}
+
+/* Loading State */
+.projects-loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.projects-loading i {
+  font-size: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Equal height cards fix */
+.project-item {
+  display: flex;
+}
+
+.project-card {
+  width: 100%;
+}

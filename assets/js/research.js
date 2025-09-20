@@ -15,7 +15,7 @@
 // Only run on publications page
 if (window.location.pathname.includes('publication') || document.title.includes('Publications')) {
   
-  fetch('data/research.json')
+  fetch('/data/research.json')
     .then(response => response.json())
     .then(publications => {
       const container = document.querySelector('.publications-container');

@@ -2,10 +2,8 @@
 
 3. remove imgs from project, publications
 
-4. blog can use img, use grid, filter, 
 5. at the end of each blog add recent, previous-next, 
 
-6. No heavy js and css would be fine
 7. make easy maintanable
 8. add talk tab
 9. projects, publications, talk reuse same html/css 
@@ -19,3 +17,5 @@ RESEARCH - html/css site can render html for blog
 
 
 1. Remove Vendor
+4. blog can use img, use grid, filter, 
+6. No heavy js and css would be fine
