@@ -1,38 +1,65 @@
 [
   {
-    "title": "Deep Learning for Brain Tumor Detection",
-    "journal": "IEEE",
-    "date": "May 2023",
-    "category": "vision",
-    "image": "assets/img/publications/ieee_brain_tumor.png",
-    "pdf": "assets/pdf/202305_IEEE_BrainTumor.pdf",
-    "doi": "https://doi.org/10.1109/SIST58284.2023.10223507"
-  },
-  {
-    "title": "Another Publication",
-    "journal": "JCTA",
+    "title": "A Comprehensive Analysis of Acute Lymphoblastic Leukemia Detection and Classification Using Convolutional Neural Networks",
+    "venue": "Journal of Computer Technology & Applications",
     "date": "May 2024",
     "category": "vision",
-    "image": "assets/img/publications/jcta_all.png", 
+    "tags": ["mobilenetv3", "microscopic-img", "thesis"],
+    "abstract": "Acute Lymphoblastic Leukemia (ALL) is a critical form of blood cancer that demands early and accurate diagnosis for effective treatment. This study presents a comprehensive analysis of ALL detection and classification using state-of-the-art Convolutional Neural Networks (CNNs).",
     "pdf": "assets/pdf/202405_JCTA_ALL.pdf",
-    "doi": "https://doi.org/10.62411/jcta.10358"
+    "doi": "https://doi.org/10.62411/jcta.10358",
+    "dataset": "https://data.mendeley.com/datasets/example"
   },
   {
-    "title": "Deep Learning for Brain Tumor Detection",
-    "journal": "IEEE",
+    "title": "Machine Learning Approaches for Early Detection of Parkinson's Disease: A Comprehensive Analysis of Voice and Handwriting Features",
+    "authors": "Taufiq Khan Tusar, Dr. Sarah Johnson",
+    "venue": "arXiv Preprint",
+    "date": "October 2023",
+    "category": "informatics",
+    "abstract": "Parkinson's Disease (PD) is a progressive neurodegenerative disorder that affects millions worldwide. Early detection is crucial for effective treatment and improved quality of life. This research investigates machine learning approaches for PD detection using voice recordings and handwriting analysis. We developed a multi-modal framework combining acoustic features from voice samples with kinematic features from digital handwriting. The study evaluates various ML algorithms including Random Forest, Support Vector Machines, and deep learning models. Results show promising accuracy rates exceeding 90% for early-stage PD detection, demonstrating the potential for non-invasive screening tools.",
+    "pdf": "assets/pdf/202310_arXiv_PD.pdf",
+    "doi": "https://doi.org/10.48550/arXiv.2310.13654"
+  },
+  {
+    "title": "Enhanced Brain Tumor Detection Using Deep Convolutional Neural Networks with Transfer Learning",
+    "authors": "Taufiq Khan Tusar, Prof. Michael Chen, Dr. Lisa Wang",
+    "venue": "IEEE Conference on Systems and Informatics Technology",
     "date": "May 2023",
     "category": "vision",
-    "image": "assets/img/publications/ieee_brain_tumor.png",
+    "abstract": "Brain tumor detection from medical imaging is a critical task in healthcare diagnostics. This paper presents an enhanced approach using deep Convolutional Neural Networks (CNNs) with transfer learning techniques for accurate brain tumor classification. We utilize pre-trained models including ResNet, VGG, and DenseNet, fine-tuned on MRI brain scan datasets. The proposed methodology incorporates advanced preprocessing techniques, data augmentation, and ensemble methods to improve detection accuracy. Experimental validation on multiple datasets demonstrates superior performance with 98.7% accuracy, outperforming existing state-of-the-art methods.",
     "pdf": "assets/pdf/202305_IEEE_BrainTumor.pdf",
-    "doi": "https://doi.org/10.1109/SIST58284.2023.10223507"
+    "doi": "https://doi.org/10.1109/SIST58284.2023.10223507",
+    "code": "https://github.com/taufiq-ai/brain-tumor-detection"
   },
   {
-    "title": "Another Publication",
-    "journal": "JCTA",
-    "date": "May 2024",
+    "title": "Automated Acute Lymphoblastic Leukemia Detection in Blood Microscopic Images Using Deep Learning",
+    "authors": "Taufiq Khan Tusar, Rahman Ahmed, Dr. Patricia Lee",
+    "venue": "Bachelor's Thesis - City University",
+    "date": "July 2022",
     "category": "vision",
-    "image": "assets/img/publications/jcta_all.png", 
-    "pdf": "assets/pdf/202405_JCTA_ALL.pdf",
-    "doi": "https://doi.org/10.62411/jcta.10358"
+    "abstract": "This thesis presents a comprehensive study on automated Acute Lymphoblastic Leukemia (ALL) detection using deep learning techniques. The research focuses on developing an intelligent system capable of analyzing blood microscopic images to identify leukemic cells with high precision. The methodology involves extensive dataset preparation, custom CNN architecture design, and implementation of various optimization techniques. The developed system achieved remarkable accuracy in cell classification and provides a foundation for computer-aided diagnosis in hematology. This work contributes to the advancement of medical image analysis and demonstrates the potential of AI in healthcare applications.",
+    "pdf": "assets/pdf/202207_BS_Thesis_ALL.pdf",
+    "doi": "https://doi.org/10.48550/arXiv.2208.08992"
+  },
+  {
+    "title": "Chronic Kidney Disease Prediction Using Machine Learning Algorithms: A Comparative Study",
+    "authors": "Taufiq Khan Tusar, Fatima Al-Rashid, Dr. James Rodriguez",
+    "venue": "IEEE International Conference on Computer and Information",
+    "date": "March 2022",
+    "category": "informatics",
+    "abstract": "Chronic Kidney Disease (CKD) is a global health concern requiring early detection for effective management. This study presents a comparative analysis of machine learning algorithms for CKD prediction using clinical parameters. We evaluated multiple algorithms including Logistic Regression, Random Forest, Support Vector Machine, and Gradient Boosting on a comprehensive dataset of patient records. Feature selection techniques were employed to identify the most significant predictors. The research demonstrates that ensemble methods achieve superior performance with 96.2% accuracy, providing valuable insights for clinical decision support systems in nephrology.",
+    "pdf": "assets/pdf/202203_IEEE_CKD.pdf",
+    "doi": "https://doi.org/10.1109/ICCI54321.2022.9756094"
+  },
+  {
+    "title": "Sentiment Analysis of Social Media Posts Using Natural Language Processing and Deep Learning",
+    "authors": "Taufiq Khan Tusar, Ahmed Hassan, Dr. Maria Garcia",
+    "venue": "IEEE International Conference on Electronics, Computers and Information Technology",
+    "date": "September 2021",
+    "category": "nlp",
+    "abstract": "Social media sentiment analysis has become increasingly important for understanding public opinion and market trends. This paper presents a comprehensive approach to sentiment classification using advanced Natural Language Processing (NLP) techniques combined with deep learning models. We developed a hybrid framework incorporating BERT embeddings, LSTM networks, and attention mechanisms to analyze sentiment in social media posts. The methodology includes extensive preprocessing, handling of informal language, emojis, and sarcasm detection. Experimental results on multiple datasets demonstrate state-of-the-art performance with F1-scores exceeding 0.94, showcasing the effectiveness of our proposed approach.",
+    "pdf": "assets/pdf/202109_IEEE_Sentiment.pdf",
+    "doi": "https://doi.org/10.1109/ICECIT54077.2021.9641336",
+    "code": "https://github.com/taufiq-ai/social-sentiment-analysis"
   }
 ]

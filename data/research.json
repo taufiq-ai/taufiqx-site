@@ -1,0 +1,90 @@
+[
+  {
+    "title": "A Context-aware customer support chatbot using small language models",
+    "venue": "Ongoing",
+    "date": "2025",
+    "category": "nlp",
+    "tags": ["language-model", "slm", "context-engineering"],
+    "abstract":"TBA",
+    "code": ""
+  },
+    {
+    "title": "On-device Small Language Models: A Comprehensive Survey",
+    "venue": "Ongoing",
+    "date": "2025",
+    "category": "nlp",
+    "tags": ["language-model", "slm", "on-device"],
+    "abstract":"TBA",
+    "code": ""
+  },
+  {
+    "title": "An intelligent telediagnosis of Acute Lymphoblastic Leukemia Using histopathological deep learning",
+    "venue": "Journal of Computering theories & Applications",
+    "authors": "Md Taufiqul Haque Khan Tusar, Md Touhidul Islam, Abul Hasnat Sakil, MN Huda Nahid, Monir Hossain",
+    "date": "May 2024",
+    "category": "vision",
+    "tags": ["medical-imaging", "microscopic-image"],
+    "abstract": "Leukemia, a global health challenge characterized by malignant blood cell proliferation, demands innovative diagnostic techniques due to its increasing incidence. Among leukemia types, Acute Lymphoblastic Leukemia (ALL) emerges as a particularly aggressive form affecting diverse age groups. This study proposes an advanced mechanized system utilizing Deep Neural Networks for detecting ALL blast cells in microscopic blood smear images. Achieving a remarkable accuracy of 97% using MobileNetV2, our system demonstrates high sensitivity and specificity in identifying multiple ALL sub-types. Furthermore, we introduce cutting-edge telediagnosis software facilitating real-time support for clinicians in promptly and accurately diagnosing various ALL subtypes from microscopic blood smear images. This research aims to enhance leukemia diagnosis efficiency, which is crucial for the timely intervention and managing this life-threatening condition.",
+    "pdf": "https://dl.futuretechsci.org/id/eprint/20/1/10358-Article%20Text-33261-2-10-20240615.pdf ",
+    "doi": "http://dx.doi.org/10.62411/jcta.10358 ",
+    "dataset": ""
+  },
+  {
+    "title": "An experimental study for early diagnosing Parkinson's disease using machine learning ",
+    "authors": "Md Taufiqul Haque Khan Tusar, Md Touhidul Islam, Abul Hasnat Sakil",
+    "venue": "arXiv Preprint",
+    "date": "October 2023",
+    "category": "informatics",
+    "tags": ["medical", "tabuler-data"],
+    "abstract": "One of the most catastrophic neurological disorders worldwide is Parkinson's Disease. Along with it, the treatment is complicated and abundantly expensive. The only effective action to control the progression is diagnosing it in the early stage. However, this is challenging because early detection necessitates a large and complex clinical study. This experimental work used Machine Learning techniques to automate the early detection of Parkinson's Disease from clinical characteristics, voice features and motor examination. In this study, we develop ML models utilizing a public dataset of 130 individuals, 30 of whom are untreated Parkinson's Disease patients, 50 of whom are Rapid Eye Movement Sleep Behaviour Disorder patients who are at a greater risk of contracting Parkinson's Disease, and 50 of whom are Healthy Controls. We use MinMax Scaler to rescale the data points, Local Outlier Factor to remove outliers, and SMOTE to balance existing class frequency. Afterwards, apply a number of Machine Learning techniques. We implement the approaches in such a way that data leaking and overfitting are not possible. Finally, obtained 100% accuracy in classifying PD and RBD patients, as well as 92% accuracy in classifying PD and HC individuals. ",
+    "pdf": "https://arxiv.org/pdf/2310.13654",
+    "doi": " https://doi.org/10.48550/arXiv.2310.13654"
+  },
+  {
+    "title": "Streamlining brain tumor classification with custom transfer learning in mri images",
+    "authors": "Javed Hossain, Md Touhidul Islam, Md Taufiqul Haque Khan Tusar",
+    "venue": "2023 IEEE International Conference on Smart Information Systems and Technologies (SIST)",
+    "date": "May 2023",
+    "category": "vision",
+    "tags": ["medical-imaging", "mri-image"],
+    "abstract": "Brain tumors are increasingly prevalent, characterized by the uncontrolled spread of aberrant tissues in the brain, with almost 700,000 new cases diagnosed globally each year. Magnetic Resonance Imaging (MRI) is commonly used for the diagnosis of brain tumors and accurate classification is a critical clinical procedure. In this study, we propose an efficient solution for classifying brain tumors from MRI images using custom transfer learning networks. While several researchers have employed various pre-trained architectures such as RESNET-50, ALEXNET, VGG-16, and VGG-19, these methods often suffer from high computational complexity. To address this issue, we present a custom and lightweight model using a Convolutional Neural Network-based pre-trained architecture with reduced complexity. Specifically, we employ the VGG-19 architecture with additional hidden layers, which reduces the complexity of the base architecture but improves computational efficiency. The objective is to achieve high classification accuracy using a novel approach. Finally, the result demonstrates a classification accuracy of 96.42%.",
+    "pdf": "https://arxiv.org/pdf/2310.13108",
+    "doi": "https://doi.org/10.1109/SIST58284.2023.10223507",
+    "code": ""
+  },
+  {
+    "title": "Automated detection of acute lymphoblastic leukemia subtypes from microscopic blood smear images using Deep Neural Networks",
+    "authors": "Md Taufiqul Haque Khan Tusar, Roban Khan Anik",
+    "venue": "BS Thesis - City University",
+    "date": "July 2022",
+    "category": "vision",
+    "tags": ["medical-imaging", "microscopic-image"],
+    "abstract": "An estimated 300,000 new cases of leukemia are diagnosed each year which is 2.8 percent of all new cancer cases and the prevalence is rising day by day. The most dangerous and deadly type of leukemia is acute lymphoblastic leukemia (ALL), which affects people of all age groups, including children and adults. In this study, we propose an automated system to detect various-shaped ALL blast cells from microscopic blood smears images using Deep Neural Networks (DNN). The system can detect multiple subtypes of ALL cells with an accuracy of 98 percent. Moreover, we have developed a telediagnosis software to provide real-time support to diagnose ALL subtypes from microscopic blood smears images.",
+    "pdf": "https://arxiv.org/pdf/2208.08992",
+    "doi": "https://doi.org/10.48550/arXiv.2208.08992"
+  },
+  {
+    "title": "Detecting chronic kidney disease (CKD) at the initial stage: A novel hybrid feature-selection method and robust data preparation pipeline for different ML techniques",
+    "authors": "Md Taufiqul Haque Khan Tusar, Md Touhidul Islam, Foyjul Islam Raju",
+    "venue": "2022 5th International Conference on Computing and Informatics (ICCI)",
+    "date": "March 2022",
+    "category": "informatics",
+    "tags": ["medical", "tabuler-data", "feature-engineering"],
+    "abstract": "Chronic Kidney Disease (CKD) has infected almost 800 million people around the world. Around 1.7 million people die each year because of it. Detecting CKD in the initial stage is essential for saving millions of lives. Many researchers have applied distinct Machine Learning (ML) methods to detect CKD at an early stage, but detailed studies are still missing. We present a structured and thorough method for dealing with the complexities of medical data with optimal performance. Besides, this study will assist researchers in producing clear ideas on the medical data preparation pipeline. In this paper, we applied KNN Imputation to impute missing values, Local Outlier Factor to remove outliers, SMOTE to handle data imbalance, K-stratified K-fold Cross-validation to validate the ML models, and a novel hybrid feature selection method to remove redundant features. Applied algorithms in this study are Support Vector Machine, Gaussian Naive Bayes, Decision Tree, Random Forest, Logistic Regression, K-Nearest Neighbour, Gradient Boosting, Adaptive Boosting, and Extreme Gradient Boosting. Finally, the Random Forest can detect CKD with 100% accuracy without any data leakage.",
+    "pdf": "https://arxiv.org/pdf/2203.01394",
+    "doi": "https://doi.org/10.1109/ICCI54321.2022.9756094"
+  },
+  
+  {
+    "title": "A comparative study of sentiment analysis using NLP and different machine learning techniques on US airline Twitter data",
+    "authors": "Md Taufiqul Haque Khan Tusar, Md Touhidul Islam",
+    "venue": "2021 International conference on electronics, communications and information technology (ICECIT)",
+    "date": "September 2021",
+    "category": "nlp",
+    "tags": ["business-intelligence", "nlu", "texual-data"],
+    "abstract": "Today's business ecosystem has become very competitive. Customer satisfaction has become a major focus for business growth. Business organizations are spending a lot of money and human resources on various strategies to understand and fulfill their customer's needs. But, because of defective manual analysis on multifarious needs of customers, many organizations are failing to achieve customer satisfaction. As a result, they are losing customer's loyalty and spending extra money on marketing. We can solve the problems by implementing Sentiment Analysis. It is a combined technique of Natural Language Processing (NLP) and Machine Learning (ML). Sentiment Analysis is broadly used to extract insights from wider public opinion behind certain topics, products, and services. We can do it from any online available data. In this paper, we have introduced two NLP techniques (Bag-of-Words and TF-IDF) and various ML classification algorithms (Support Vector Machine, Logistic Regression, Multinomial Naive Bayes, Random Forest) to find an effective approach for Sentiment Analysis on a large, imbalanced, and multi-classed dataset. Our best approaches provide 77% accuracy using Support Vector Machine and Logistic Regression with Bag-of-Words technique.",
+    "pdf": "https://arxiv.org/pdf/2110.00859",
+    "doi": "https://doi.org/10.1109/ICECIT54077.2021.9641336",
+    "code": ""
+  }
+]
