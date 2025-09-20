@@ -321,13 +321,20 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
-    display: block;
+    display: block !important;  /* Shows on mobile */
   }
 
   .navbar ul {
     display: none;
+  }
+}
+
+/* Force hide hamburger on desktop */
+@media (min-width: 993px) {
+  .mobile-nav-toggle {
+    display: none !important;
   }
 }
 
