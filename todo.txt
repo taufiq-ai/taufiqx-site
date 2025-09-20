@@ -1,0 +1,16 @@
+1. Remove Vendor
+2. Make each tabs visible by slug not .html
+3. remove imgs from project, publications
+4. blog can use img, use grid, filter, 
+5. at the end of each blog add recent, previous-next, 
+6. No heavy js and css would be fine
+7. make easy maintanable
+8. add talk tab
+9. projects, publications, talk reuse same html/css 
+10. Index page can be the about page directly
+
+Most of simple templates are messy in long run
+
+I want simple but easy scroll, separate component, easy maintanance
+
+RESEARCH - html/css site can render html for blog 
